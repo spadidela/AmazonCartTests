@@ -1,0 +1,25 @@
+{
+  "name": "gradientedge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf test-results/ allure-results/ allure-report/",
+    "allure:generate": "npx allure generate allure-results --clean",
+    "allure:open": "npx allure open",
+    "test:sit:tags": "npm run clean && TEST_ENV=sit npx playwright test --project=chromium --grep=@increaseQty",
+    "test:sit": "npm run clean && TEST_ENV=sit npx playwright test --project=chromium --headed",
+    "test:qa": "npm run clean && TEST_ENV=qa npx playwright test --project=chromium --headed",
+    "test:sit:allure": "npm run clean && TEST_ENV=sit npx playwright test --project=chromium --headed && npm run allure:generate && npm run allure:open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.1",
+    "@types/node": "^22.5.4",
+    "allure-playwright": "^3.0.0-beta.12"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

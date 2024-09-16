@@ -1,0 +1,12 @@
+[INFO] [2024-09-16T11:11:42.811Z] Navigating to Amazon UK
+[INFO] [2024-09-16T11:11:44.214Z] Amazon UK page loaded
+[INFO] [2024-09-16T11:11:44.367Z] Cookies accepted!
+[INFO] [2024-09-16T11:11:44.368Z] Navigating to product page: https://www.amazon.co.uk/dp/B0CZNFV5W2
+[INFO] [2024-09-16T11:11:48.077Z] Navigation successful to: https://www.amazon.co.uk/dp/B0CZNFV5W2
+[INFO] [2024-09-16T11:11:48.077Z] Attempting to add product to basket
+[INFO] [2024-09-16T11:11:48.788Z] Product added to basket
+[INFO] [2024-09-16T11:11:48.788Z] Navigating to basket
+[INFO] [2024-09-16T11:11:48.911Z] Basket page loaded
+[INFO] [2024-09-16T11:11:48.911Z] Updating product quantity to: 2
+[INFO] [2024-09-16T11:11:49.267Z] Quantity updated successfully 
+
